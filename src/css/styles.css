@@ -85,5 +85,57 @@ img {
     height: auto;
 }
 .header {
-    padding: 10px 0 0;
+    background-color: #fff;
+    border-bottom: solid 1px #FDA3C4;
+    padding: 5px 0 0;
+}
+
+.header-container {
+    width: 320px;
+    height: 35px;
+}
+
+.top-row,
+.bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 69px;
+    height: 17px;
+    margin-right: 72px;
+}
+
+.nav-menu,
+.new-items,
+.contact-address-link,
+.header-location,
+.contact-address-link,
+.heard,
+.bag {
+    display: none;
+}
+li .contact-tel{
+    display: inline-block;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 8px; 
+    color: #FDA3C4;
+}
+.contact-phone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+}
+
+.serch {
+margin-top: 5px;
+margin-left: 27px;
 }
