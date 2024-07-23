@@ -73,6 +73,7 @@ ul {
 a {
     color: currentColor;
     text-decoration: none;
+    margin: 0;
 }
 
 button {
@@ -89,18 +90,13 @@ img {
     border-bottom: solid 1px #FDA3C4;
     padding: 5px 0 0;
 }
-
-.header-container {
-    width: 320px;
-    height: 35px;
-}
-
 .top-row,
 .bottom-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0;
+    position: relative;
 }
 
 .logo {
@@ -110,12 +106,14 @@ img {
     width: 69px;
     height: 17px;
     margin-right: 72px;
+    margin-bottom: 7px;
 }
 
 .nav-menu,
 .new-items,
 .contact-address-link,
 .header-location,
+.location,
 .contact-address-link,
 .heard,
 .bag {
@@ -136,6 +134,83 @@ li .contact-tel{
 }
 
 .serch {
-margin-top: 5px;
-margin-left: 27px;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+@media screen and (min-width: 480px) {
+     .logo {
+        width: 82px;
+        height: 21px;
+        margin-top: 9px;
+        margin-right: 140px;
+        margin-bottom: 16px;
+    }
+    .contact-address {
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+    }
+    .phone {
+        width: 16px;
+        height: 16px;
+    }
+    .serch {
+        width: 24px;
+        height: 24px;
+        margin-top: 7px;
+        margin-left: 74px;
+    }
+    li .contact-tel {
+        font-weight: 700;
+        font-size: 10px;
+     }
+}
+@media screen and (min-width: 768px) {
+    .header-container{
+        min-height: 103px;
+    }
+    .logo {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        width: 113px;
+        height: 29px;
+        text-align: center;
+    }
+        .contact-address-list {
+            display: flex;
+            flex-direction:column;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .location {
+            display: flex;
+        }
+    .contact-address-link {
+        display: flex;
+        font-weight: 700;
+        font-size: 11px;
+        color: #FDA3C4;
+    }
+    .contact-address-item {
+        display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 8px;
+    }
+        .contact-phone {
+            gap: 8px;
+        }
+         .phone {
+             width: 20px;
+             height:20px;
+         }
+         li .contact-tel {
+          font-size: 11px;
+         }
+}
+.icons {
+    display: flex;
+    gap: 16px;
 }
