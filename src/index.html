@@ -63,41 +63,136 @@
       </div>
     </header>
 
-    <new-items class="new-items">
-        <div class="container new-items-container">
-          <img  srcset="-2x.jpg 2x, .jpg 1x"
-                src=""
-                width=""
-                height=""
-                alt=""/>
-          <button class="button"></button>
-            <img srcset="-2x.jpg 2x, .jpg 1x"
-                src=""
-                width=""
-                height=""
-                alt=""/>/>
-          <button class="button"></button>
-              <img srcset="-2x.jpg 2x, .jpg 1x"
-                src=""
-                width=""
-                height=""
-                alt=""/>/>
-          <button class="button"></button>
-               <img srcset="-2x.jpg 2x, .jpg 1x"
-                src=""
-                width=""
-                height=""
-                alt=""/>/>
-          <button class="button"></button>
-                <img srcset="-2x.jpg 2x, .jpg 1x"
-                src=""
-                width=""
-                height=""
-                alt=""/>/>
-          <button class="button"></button>
-              <img srcset="-2x.jpg 2x, .jpg 1x" src="" width="" height="" alt="" />/>
-              <button class="button"></button>
-    </div>
+    <category class="category">
+      <div class="container category-container">
+        <picture>
+            <source srcset="./image/category/t-shirts.2x1440.jpg 2x,
+              ./image/category/t-shirts.1x1440.jpg 1x"
+            media="(min-width:1440px)" />
+            <source srcset="./image/category/t-shirts.2x1000.jpg 2x,
+             ./image/category/t-shirts.1x1000.jpg 1x" 
+             media="(min-width:1000px)" />
+            <source srcset="./image/category/t-shirts.2x768.jpg 2x, 
+            ./image/category/t-shirts.1x768.jpg 1x" 
+            media="(min-width:768px)" />
+            <source
+             srcset="./image/category/t-shirts.2x480.jpg 2x, 
+              ./image/category/t-shirts.1x480.jpg 1x" 
+             media="(min-width: 480px)" />
+            <source
+            srcset="./image/category/t-shirts.2x320.jpg 2x, 
+            ./image/category/t-shirts.1x320.jpg 1x" 
+            media="(min-width: 320px)" />
+            <img  class="category-t-shirts" src="./image/category/t-shirts.1x320.jpg"
+                width="177"
+                height="231"
+                alt="Футболки" />
+        </picture>
+        <div class="icons-t-shirt-container">
+          <svg class="icons-t-shirt" width="122" height="34">
+            <use href="./image/icons.svg#icon-t-short"></use>
+          </svg>
+          <span class="t-shirt-icon-text">T-SHIRTS</span>
+        </div>
+        <div class="dress-bottom">
+          <picture>
+             <source 
+                srcset="./image/category/dresses-2x1440.jpg 2x,
+                 ./image/category/dresses-1x1440.jpg 1x" 
+                  media="(min-width:1440px)" />
+            <source srcset="./image/category/dresses-2x1000.jpg 2x,
+              ./image/category/dresses-1x1000.jpg 1x" 
+                 media="(min-width:1000px)" />
+            <source srcset="./image/category/dresses-2x768.jpg 2x, 
+                ./image/category/dresses-1x768.jpg 1x"
+                 media="(min-width:768px)" />
+            <source srcset="./image/category/dresses-2x480.jpg 2x, 
+                 ./image/category/dresses-1x480.jpg 1x"
+                media="(min-width: 480px)" />
+            <source srcset="./image/category/dresses-2x320.jpg 2x, 
+                          ./image/category/dresses-1x320.jpg 1x"
+                           media="(min-width: 320px)" />
+                <img class="category-dresses" src="./image/category/dresses-1x320.jpg"
+                 width="109" 
+                 height="113" 
+                 alt="Платья" />
+              </picture>
+                  <div class="icons-dresses-container">
+                    <svg class="icons-dresses" width="95" height="37">
+                      <use href="./image/icons.svg#icon-dresses"></use>
+                    </svg>
+                    <span class="dresses-icon-text">DRESSES</span>
+                  </div>
+        <picture>
+          <source srcset="./image/category/bottom-2x1440.jpg.jpg 2x,
+                         ./image/category/bottom-1x1440.jpg 1x" media="(min-width:1440px)" />
+          <source srcset="./image/category/bottom-2x1000.jpg 2x,
+                      ./image/category/bottom-1x1000.jpg 1x" media="(min-width:1000px)" />
+          <source srcset="./image/category/bottom-2x768.jpg 2x, 
+                        ./image/category/bottom-1x768.jpg 1x" media="(min-width:768px)" />
+          <source srcset="./image/category/bottom-2x480.jpg 2x, 
+                         ./image/category/bottom-1x480.jpg 1x" media="(min-width: 480px)" />
+          <source srcset="./image/category/bottom-2x320.jpg 2x, 
+                                  ./image/category/bottom-1x320.jpg 1x" media="(min-width: 320px)" />
+          <img class="category-bottom" src="./image/category/bottom-1x320.jpg" 
+          width="109" 
+          height="113" 
+          alt="Низ" />
+        </picture>
+        </div>
+        <div class="top-hoodie">
+        <picture>
+          <source srcset="./image/category/top-2x1440.jpg 2x,
+                                 ./image/category/top-1x1440.jpg 1x" media="(min-width:1440px)" />
+          <source srcset="./image/category/top-2x1000.jpg 2x,
+                              ./image/category/top-1x1000.jpg 1x" media="(min-width:1000px)" />
+          <source srcset="./image/category/top-2x768.jpg 2x, 
+                                ./image/category/top-1x768.jpg 1x" media="(min-width:768px)" />
+          <source srcset="./image/category/top-2x480.jpg 2x, 
+                                 ./image/category/top-1x480.jpg 1x" media="(min-width: 480px)" />
+          <source srcset="./image/category/top-2x320.jpg 2x, 
+                         ./image/category/top-1x320.jpg 1x" media="(min-width: 320px)" />
+          <img class="category-top" src="./image/category/top-1x320.jpg"
+           width="109"
+            height="113"
+             alt="Верх" />
+        </picture>
+  <picture>
+    <source srcset="./image/category/top-2x1440.jpg 2x,
+                                   ./image/category/hoodie-1x1440.jpg 1x" media="(min-width:1440px)" />
+    <source srcset="./image/category/hoodie-2x1000.jpg 2x,
+                                ./image/category/hoodie-1x1000.jpg 1x" media="(min-width:1000px)" />
+    <source srcset="./image/category/hoodie-2x768.jpg 2x, 
+                                  ./image/category/hoodie-1x768.jpg 1x" media="(min-width:768px)" />
+    <source srcset="./image/category/hoodie-2x480.jpg 2x, 
+                                   ./image/category/hoodie-1x480.jpg 1x" media="(min-width: 480px)" />
+    <source srcset="./image/category/hoodie-2x320.jpg 2x, 
+                           ./image/category/hoodie-1x320.jpg 1x" media="(min-width: 320px)" />
+    <img class="category-hoodie" src="./image/category/hoodie-1x320.jpg" 
+    width="109" 
+    height="113" 
+    alt="Худи" />
+  </picture>
+        </div>
+        <picture>
+    <source srcset="./image/category/costumes-2x1440.jpg 2x,
+            ./image/category/costumes-1x1440.jpg 1x" media="(min-width:1440px)" />
+    <source srcset="./image/category/costumes-2x1000.jpg 2x,
+              ./image/category/costumes-1x1000.jpg 1x" media="(min-width:1000px)" />
+    <source srcset="./image/category/costumes-2x768.jpg 2x, 
+            ./image/category/costumes-1x768.jpg 1x" media="(min-width:768px)" />
+    <source srcset="./image/category/costumes-2x480.jpg 2x, 
+            ./image/category/costumes-1x480.jpg 1x" media="(min-width: 480px)" />
+    <source srcset="./image/category/costumes-2x320.jpg 2x, 
+            ./image/category/costumes-1x320.jpg 1x" media="(min-width: 320px)" />
+    <img  class="category-costumes" src="./image/category/costumes-1x320.jpg"
+    width="177" 
+    height="231" 
+    alt="Костюмы" />
+        </picture>
+        </div>
+    </category>
+
     </new-items>
 
     <new-collection> </new-collection>

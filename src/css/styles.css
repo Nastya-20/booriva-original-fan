@@ -139,7 +139,7 @@ li .contact-tel{
     margin-bottom: 5px;
 }
 @media screen and (min-width: 480px) {
-     .logo {
+    .logo {
         width: 82px;
         height: 21px;
         margin-top: 9px;
@@ -179,11 +179,11 @@ li .contact-tel{
         text-align: center;
     }
         .contact-address-list {
-            display: flex;
-            flex-direction:column;
-            justify-content: space-between;
-            align-items: flex-start;
-        }
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
         .location {
             display: flex;
         }
@@ -195,22 +195,111 @@ li .contact-tel{
     }
     .contact-address-item {
         display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 8px;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
     }
-        .contact-phone {
-            gap: 8px;
-        }
-         .phone {
-             width: 20px;
-             height:20px;
-         }
-         li .contact-tel {
-          font-size: 11px;
-         }
+    .contact-phone {
+        gap: 8px;
+    }
+    .phone {
+        width: 20px;
+        height:20px;
+    }
+    li .contact-tel {
+        font-size: 11px;
+    }
 }
 .icons {
     display: flex;
     gap: 16px;
 }
+/* категории*/
+ .category-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 16px;
+    justify-content: space-between;
+    position: relative;
+ }
+  .icons-t-shirt-container {
+    position: absolute;
+    top: 153px;
+    left: 23px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+ .icons-t-shirt  {
+    width: 122px;
+    height: 34px;
+ }
+  .t-shirt-icon-text {
+     position: absolute;
+     top: 5px;
+     left: 15px;
+     color: #fff;
+     font-size: 18px;
+  }
+  .icons-dresses-container {
+      position: absolute;
+      top: 62px;
+      right: 24px;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .icons-dresses {
+      width: 98px;
+      height: 37px;
+  }
+
+  .dresses-icon-text {
+      position: absolute;
+      top: 6px;
+      left: 10px;
+      color: #fff;
+      font-size: 16px;
+  }
+ .dress-bottom {
+    min-width: 109px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 5px;
+ }
+ .top-hoodie {
+    min-width: 109px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+ }
+ @media screen and (min-width: 480px) {
+    .category-t-shirts {
+        width: 272px;
+        height: 364px;
+    }
+    .category-dresses {
+        width: 170px;
+        height: 180px;
+    }
+    .category-bottom {
+        width: 170px;
+        height: 180px;
+    }
+    .category-top {
+     width: 170px;
+     height: 180px;
+ }
+   .category-hoodie {
+       width: 170px;
+       height: 180px;
+   }
+   .category-costumes {
+       width: 272px;
+       height: 364px;
+   }
+ }
